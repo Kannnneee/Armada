@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <title>Kenn Robie - Student</title>
+    <link rel="stylesheet" href="design.css" />
+</head>
+
+<body>
+    <h1 id="main-title">Kenn Robie Laigo</h1>
+    <nav>
+        <ul>
+            <li><a href="email">Send Email</a></li>
+            <li><a href="projects">Projects</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about-me">
+            <section>
+                <h2>About</h2>
+                <p>I'm Kenn Robie Laigo, a 4th-year BS Information Technology student at Don Mariano Marcos Memorial
+                    State University. Currently, I'm undergoing on-the-job training at Armada Logics, gaining hands-on
+                    experience in software development. My goal is to build a strong foundation in IT and prepare for a
+                    successful career in technology.</p>
+            </section>
+            <section>
+                <img src="https://scontent.fcrk2-2.fna.fbcdn.net/v/t39.30808-6/461534162_1279894426711106_4021949614296032666_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFRVZbSM28wOFr1BOdtbgIvBsYKhWAomgIGxgqFYCiaAm-uFMpeGA6u4Fuu_aQOs0p63Ve2txJfRW623XS4l3OK&_nc_ohc=9IvrwcmyO8sQ7kNvgEOL1kj&_nc_oc=AdhRqAnB32wPzWAXlWuHi4fv3paUAJULMsDnAVDqxUPFPXpuqQhGCVvGyWGoVc1IrQA&_nc_zt=23&_nc_ht=scontent.fcrk2-2.fna&_nc_gid=Awxs1wMSQunXVFRHh3cPDHA&oh=00_AYCB8TrkKxxhXQui-L8wRtrMrDljW5FFZkLjBlovMVlaAw&oe=67BC1795"
+                    width="180" height="180" alt="My Picture">
+            </section>
+        </section>
+        <section id="projects-container">
+            <h2>Recent Projects</h2>
+            <section id="projects">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Description</th>
+                            <th>Year</th>
+                        </tr>
+                        <tr>
+                            <td>Library Management System</td>
+                            <td>Library Management System built using HTML, CSS, PHP, and SQL. It allows users to manage
+                                books, track borrow/return transactions, and handle user accounts efficiently, with PHP
+                                handling the backend and SQL managing the database.</td>
+                            <td>2024</td>
+                        </tr>
+                        <tr>
+                            <td>Budget System</td>
+                            <td>A Budget System specifically designed for students. It helps track expenses, manage
+                                savings, and set financial goals using a simple and user-friendly interface. The system
+                                ensures better budgeting habits through real-time expense monitoring and categorized
+                                spending analysis.</td>
+                            <td>2024</td>
+                        </tr>
+                        <tr>
+                            <td>Shadow of the Past</td>
+                            <td>Simple animation titled "Shadow of the Past", starting from scriptwriting to final
+                                execution. The project focused on visual storytelling, bringing scenes to life through
+                                animations that reflected the narrative’s emotions and themes.</td>
+                            <td>2024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </section>
+        <section id="contacts">
+            <h2>Message Me</h2>
+            <p>If you have any inquiries, feel free to reach out!</p>
+
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <div class="form-group">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>How did you hear about this portfolio?</legend>
+                    <div class="radio-group">
+                        <label><input type="radio" name="source" value="friend"> Friends</label>
+                        <label><input type="radio" name="source" value="social_media"> Social Media</label>
+                        <label><input type="radio" name="source" value="search_engine"> Search Engine</label>
+                        <label><input type="radio" name="source" value="others"> Others</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Skills/Interest</legend>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="interests" value="web_dev"> Web Development</label>
+                        <label><input type="checkbox" name="interests" value="design"> Design</label>
+                        <label><input type="checkbox" name="interests" value="photography"> Photography</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Comments or Messages</legend>
+                    <div class="form-group">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                </fieldset>
+
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section id="footer_name">
+            <p>© Kenn Robie F. Laigo 2025</p>
+        </section>
+    </footer>
+</body>
+
+</html>

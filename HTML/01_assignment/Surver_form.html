@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <h1>Survey Form</h1>
+        <form action="/submit_form" method="post">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname"/>
+            <br>
+
+            <label for="emailadd">Email Address:</label>
+            <input type="email" id="emailadd" name="emailadd"/>
+            <br><br>
+
+            <fieldset>
+                <legend>What level of satisfaction do you have after using our computer setup?</legend>
+                    <label for="best">The Best</label>
+                    <input type="radio" id="best" name="satisfaction" value="best"/>
+                <br >
+                    <label for="good">Best</label>
+                    <input type="radio" id="good" name="satisfaction" value="good"/>
+                <br>
+                    <label for="ok">Ok</label>
+                    <input type="radio" id="ok" name="satisfaction" value="ok"/>
+                <br>
+                    <label for="bad">Not Good</label>
+                    <input type="radio" id="bad" name="satisfaction" value="bad"/>
+                <br>
+                    <label for="worst">The Worst</label>
+                    <input type="radio" id="worst" name="satisfaction" value="worst"/>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>What parts of the experience did you enjoy the most?</legend>
+                    <label for="comfort">Gaming Chair Comfort</label>
+                    <input type="checkbox" id="comfort" name="exp" value="comfort"/>
+                <br>
+                    <label for="rgb">RGB Lights</label>
+                    <input type="checkbox" id="rgb" name="exp" value="rgb"/>
+                <br>
+                    <label for="play">Playing</label>
+                    <input type="checkbox" id="play" name="exp" value="play"/>
+            </fieldset>
+            <br>
+
+            <label for="hz">Preferred Monitor Hz:</label>
+            <select id="hz" name="hz">
+                <option value="60">60Hz</option>
+                <option value="120">120Hz</option>
+                <option value="144">144Hz</option>
+                <option value="240">240Hz</option>
+            </select>
+            <br><br >
+
+            <label for="sugg">Suggestions:</label>
+            <br>
+            <textarea id="sugg" name="message"></textarea>
+            <br><br>
+            <input type="submit" value="Submit"/>
+        </form>
+    </body>
+</html>

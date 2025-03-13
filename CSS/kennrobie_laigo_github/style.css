@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+    background-color: #0D1015;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #25292E;
+    height: 60px;
+    padding: 0 20px;
+}
+
+#primary-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+
+.left-navigation ul li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.left-navigation ul li a,
+.left-navigation ul li p {
+    color: #fff;
+    text-decoration: none;
+}
+
+.left-navigation ul li img {
+    width: 12px;
+    height: 12px;
+}
+
+.right-navigation {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: solid 1px #ffffff50;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.searchbar img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.search-input {
+    background: none;
+    border: none;
+    color: #fff;
+    outline: none;
+    padding: 5px;
+}
+
+.buttons a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.sign-in {
+    background-color: transparent;
+}
+
+.buttons .sign-up {
+    background-color: transparent;
+    border: 1px solid #ffffff50;
+    border-radius: 10px;
+}
+
+#logo {
+    width: 30px;
+    height: 30px;
+}
+
+.secondary-navigation {
+    background-color: #0D1015;
+    padding: 10px 20px;
+}
+
+.category-nav {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    justify-content: center;
+}
+
+.category-nav li a {
+    color: #ffffff70;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.git-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.git-content {
+    margin-top: 20px;
+    padding-left: 330px;
+    height: auto;
+    width: 1050px;
+}
+
+.git-content p {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+h2 {
+    color: #9198a1;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#game-off {
+    border-bottom: solid 2px #3d444d;
+}
+
+.game-card {
+    border: 2px solid #3d444d;
+    border-radius: 6px;
+    height: 630px;
+    margin-bottom: 20px;
+}
+
+#game-byte img {
+    width: 25px;
+    height: 25px;
+
+}
+
+#game-byte {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #8b949e;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.card-info {
+    padding: 20px;
+    color: #9198a1;
+}
+
+.card-info h3 {
+    color: #0d6ac0;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.card-info p {
+    color: #9198a1;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.git-collection {
+    margin-top: 20px;
+    padding: 20px 20px 180px;
+    height: 180px;
+    border: 2px solid #3d444d;
+    border-radius: 6px;
+}
+
+.collection-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.git-collection .collection-title {
+    display: flex;
+    gap: 5px;
+    font-size: 13px;
+    align-items: center;
+    color: #9198a1;
+}
+
+#git-icon {
+    height: 25px;
+    width: 25px;
+}
+
+.collection-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
+    background-color: #111d2f;
+    color: #9198a1;
+    border-radius: 8px;
+}
+
+.collection-info {
+    margin-left: 10px;
+}
+
+.collection-info h3,
+.collection-info p,
+.collection-info a {
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.collection-info h3 {
+    font-weight: 500;
+    color: #4493f8;
+    font-size: 22px;
+}
+
+.collection-info p,
+.collection-info a {
+    color: #9198a1;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.collection-info a {
+    color: #4493f8;
+}
+
+.dev-trending {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 15px;
+    color: white;
+    background-color: transparent;
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+}
+
+.dev-trending h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #151b23;
+    border: 2px solid #383e48;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: none;
+}
+
+.dev-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.dev-trending ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dev-trending li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #383e48;
+    border-bottom: none;
+}
+
+.dev-avatar {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid #8B949E;
+}
+
+.dev-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-left: 5px;
+}
+
+.dev-fullname {
+    font-size: 18px;
+    font-weight: bold;
+    color: #58A6FF;
+    text-decoration: none;
+}
+
+.dev-username {
+    font-size: 18px;
+    color: #C9D1D9;
+}
+
+.dev-repo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: #8B949E;
+}
+
+.dev-repo img {
+    display: flex;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    margin-top: 5px;
+}
+
+.dev-trending a {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    padding: 5px 20px;
+    font-size: 13px;
+    color: #58A6FF;
+    text-decoration: none;
+    border: 2px solid #383e48;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 80px;
+    padding: 40px 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+    color: #9198a1;
+}
+
+footer li a {
+    color: #9198a1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}

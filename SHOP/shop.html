@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Admin Dashboard</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="assets/css/product-style.css">
+    <link rel="stylesheet" href="shop-style.css">
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li><a href="#"></span><span class="title">Brand Name</span></a></li>
+                <li><a href="home.html" onclick="showSection('home')"><span class="icon"><ion-icon name="home-outline"></ion-icon></span><span class="title">Home</span></a></li>
+                <li><a href="shop.html" onclick="showSection('shop')"><span class="icon"><ion-icon name="cart-outline"></ion-icon></span><span class="title">Shop</span></a></li>
+                <li><a href="cart.html" onclick="showSection('cart')"><span class="icon"><ion-icon name="cart-outline"></ion-icon></span><span class="title">Cart</span></a></li>
+            </ul>
+        </div>
+
+        <!-- ========================= Topbar ==================== -->
+        <section class="main">
+            <nav class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+                <div class="button-container">
+                    <button id="loginbutton" class="button">Login</button>
+                    <button id="signupbutton" class="button">Signup</button>
+                </div>
+            </nav>
+
+        <!-- ========================= product page ==================== -->        
+        <main class="main-shop">
+            <header>
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+            </header>    
+            <section class="home-shop">
+                <aside class="categories">
+                    <h2>Categories</h2>
+                    <ul>
+                        <li><a href="#"><img src="instrument-assets\music-instrument.png"> All Products</a></li>
+                        <li><a href="#"><img src="instrument-assets\guitar.png"> Strings</a></li>
+                        <li><a href="#"><img src="instrument-assets\saxophone.png"> Winds</a></li>
+                        <li><a href="#"><img src="instrument-assets\drum.png"> Percussion</a></li>
+                        <li><a href="#"><img src="instrument-assets\keyboard.png"> Electronic</a></li>
+                    </ul>
+                </aside>
+                <section id="products" class="products-section">
+                    <h2>All Instruments</h2>
+                    <div class="product-grid">
+                        <a href="product.html" class="product-link">
+                            <div class="product">
+                                <img src="ins" alt="Product 3">
+                                <h3>Product 3</h3>
+                                <p>$29.99</p>
+                            </div>
+                        </a>
+                        <div class="product">
+                            <img src="image/sample.jpg" alt="Product 2">
+                            <h3>Product 2</h3>
+                            <p>$24.99</p>
+                        </div>
+                        <div class="product">
+                            <img src="image/sample.jpg" alt="Product 3">
+                            <h3>Product 3</h3>
+                            <p>$29.99</p>
+                        </div>
+                        <div class="product">
+                            <img src="image/sample.jpg" alt="Product 3">
+                            <h3>Product 3</h3>
+                            <p>$29.99</p>
+                        </div>
+                        <div class="product">
+                            <img src="image/sample.jpg" alt="Product 3">
+                            <h3>Product 3</h3>
+                            <p>$29.99</p>
+                        </div>
+                        <div class="product">
+                            <img src="image/sample.jpg" alt="Product 3">
+                            <h3>Product 3</h3>
+                            <p>$29.99</p>
+                        </div>
+                        <div class="product">
+                            <img src="image/sample.jpg" alt="Product 3">
+                            <h3>Product 3</h3>
+                            <p>$29.99</p>
+                        </div>
+                        <div class="product">
+                            <img src="image/sample.jpg" alt="Product 3">
+                            <h3>Product 3</h3>
+                            <p>$29.99</p>
+                        </div>
+                        <div class="product">
+                            <img src="image/sample.jpg" alt="Product 3">
+                            <h3>Product 3</h3>
+                            <p>$29.99</p>
+                        </div>
+                        <div class="product">
+                            <img src="image/sample.jpg" alt="Product 3">
+                            <h3>Product 3</h3>
+                            <p>$29.99</p>
+                        </div>
+                        <div class="product">
+                            <img src="image/sample.jpg" alt="Product 3">
+                            <h3>Product 3</h3>
+                            <p>$29.99</p>
+                        </div>
+                        <div class="product">
+                            <img src="image/sample.jpg" alt="Product 3">
+                            <h3>Product 3</h3>
+                            <p>$29.99</p>
+                        </div>
+                        <div class="product">
+                            <img src="image/sample.jpg" alt="Product 3">
+                            <h3>Product 3</h3>
+                            <p>$29.99</p>
+                        </div>
+                        <div class="product">
+                            <img src="image/sample.jpg" alt="Product 3">
+                            <h3>Product 3</h3>
+                            <p>$29.99</p>
+                        </div>
+                        <div class="product">
+                            <img src="image/sample.jpg" alt="Product 3">
+                            <h3>Product 3</h3>
+                            <p>$29.99</p>
+                        </div>
+                        <div class="product">
+                            <img src="image/sample.jpg" alt="Product 3">
+                            <h3>Product 3</h3>
+                            <p>$29.99</p>
+                        </div>
+                    </section>
+                </section>
+            </section>
+        </main>
+       
+        <section class="modal" id="loginModal">
+            <div class="modalcontainer">   
+                <button class="close" data-modal="loginModal">&times;</button>    
+                
+                <section class="modalheader">
+                    <h4>Login to order.</h4>
+                    <a href="#" id="switchtosignup">New Member? Register here.</a></p>
+                </section>          
+                <form id="loginForm">
+                    <input type="email" id="loginEmail" required placeholder="Enter your email">
+                    <input type="password" id="loginPassword" required placeholder="Enter your password">
+                    <button type="submit" id="submitbutton">Login</button>
+                </form>
+                <p id="loginMessage"></p>
+
+            </div>
+        </section>
+
+        <section class="modal" id="signupModal">
+            
+            <div class="modalcontainer"> 
+                <button class="close" data-modal="signupModal">&times;</button>
+                
+                <section class="modalheader">
+                    <h4>Signup to order.</h4>
+                    <a href="#" id="switchtologin">Already a member? Login here.</a></p>
+                </section>
+                <form id="signupForm">
+                    <section class="name">
+                        <input type="text" id="firstName" required placeholder="First Name">
+                        <input type="text" id="lastName" required placeholder="Last Name">
+                    </section>
+                    <input type="email" id="signupEmail" required placeholder="Email">
+                    <input type="password" id="signupPassword" required placeholder="Password">
+                    <input type="password" id="confirmPassword" required placeholder="Confirm Password">
+                    <button type="submit" id="submitbutton" class="submitbutton">Signup</button>
+                </form>      
+                <p id="signupMessage"></p>
+            </div>
+        </section>
+
+    <!-- =========== Scripts =========  -->
+    <script src="main.js"></script>
+    <script src="login.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
