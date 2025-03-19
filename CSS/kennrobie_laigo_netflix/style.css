@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: white;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+        url('netflix_image_asset/PH-en-20250113-TRIFECTA-perspective_8171c01e-c334-403b-bfa2-133bcc962aaf_small.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+nav img {
+    width: 150px;
+}
+.navbar-options {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navbar-options select {
+    background:  rgba(26, 26, 26, 0.863);
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.navbar-options a {
+    background: #E50914;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.intro-section {
+    max-width: 800px;
+}
+.intro-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.intro-section h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.intro-section p{
+    margin-bottom: 5px;
+}
+.email-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+.email-form input[type="email"] {
+    width: 400px;
+    padding: 15px;
+    border: 1px solid #a2a1a1;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgba(26, 26, 26, 0.863);
+    color: white;
+}
+.email-form input[type="submit"] {
+    background: #E50914;
+    color: white;
+    font-size: 16px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="email"] {
+    padding: 12px;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+input[type="submit"] {
+    background: #E50914;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.popular-now {
+    padding: 20px 0;
+    max-width: 1250px;
+    margin: auto;
+}
+.popular-now h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.movie-gallery {
+    display: flex;
+    gap: 30px;
+    padding-left: 25px;
+    justify-content: center;
+    text-align: start;
+}
+.movie-gallery a {
+    display: inline-block;
+}
+.movie-gallery img {
+    width: 180px;
+    border-radius: 8px;
+}
+.btn-right {
+    width: 30px; 
+    height: 100px; 
+    background: rgba(46, 46, 46, 0.712);
+    border: none;
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer;
+    margin: auto 0;
+}
+
+.join-reasons {
+    text-align: center;
+    padding: 40px 20px;
+    color: #fff;
+    max-width: 1250px; 
+    margin: auto; 
+}
+.join-reasons h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: left; 
+}
+.feature-containers {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    flex-wrap: nowrap; 
+}
+.feature-containers div {
+    flex: 1; 
+    max-width: 228px; 
+    background-color: #262e53fb;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-align: left;
+    min-height: 250px; 
+}
+
+footer {
+    text-align: center; 
+    padding: 20px 0px 50px;
+    linear-gradient:(rgba(0, 0, 0, 0.65));
+    color: white;
+}
+.email-form-footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 10px;
+}
+.email-form-footer input[type="email"] {
+    padding: 10px;
+    width: 550px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.email-form-footer input[type="submit"] {
+    padding: 10px 20px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
